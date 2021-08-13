@@ -70,6 +70,10 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "app1:build",
+            "port": 4013
+          },
           "configurations": {
             "production": {
               "browserTarget": "the-arbgen:build:production"
