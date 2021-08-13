@@ -12,7 +12,7 @@ export class FrontHelloComponentComponent implements OnInit {
   code = new BehaviorSubject<string>("");
 
   constructor(
-    private clipboard: Clipboard
+    // private clipboard: Clipboard
   ) {
     this.code.subscribe(val => {
       console.log("val: " + val)
